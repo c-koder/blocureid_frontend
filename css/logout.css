@@ -1,0 +1,272 @@
+*{
+    position: relative;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+   
+    background-color: #EFEFEF;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 160px;
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 100%;
+    height: 104px;
+    position: absolute;
+}
+
+.BlocureID{
+    width: 177.34px;
+    height: 33px;
+    background: #FFFFFF;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 25px;
+    width: 158.16px;
+    height: 44px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    background: #FFFFFF;
+}
+
+.image{
+    width: 44px;
+    height: 44px;
+    background: #FFFFFF;
+}
+
+.sara{
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.button a{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    text-decoration: none;
+    width: 89.16px;
+    height: 44px;
+    padding: 10px 20px;
+    gap: 8px;
+
+    background: #3B5998;
+
+    border: 1px solid #3B5998;
+    border-radius: 8px;
+}
+
+.leftpane{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap:20px;
+    position: absolute;
+    width: 280px;
+    height: 351px;
+    left: 59px;
+    top: 130px;
+}
+
+.profile{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+h5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 31px;
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.myprofile{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.identities{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.setting{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.out{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 8px;
+    text-transform: uppercase;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+
+    width: 280px;
+    height: 44px;
+
+    background: #3B5998;
+
+    border: 1px solid #3B5998;
+    border-radius: 8px;
+
+    color: #ffffff;
+}
+
+.divider{
+    position: absolute;
+    width: 0px;
+    height: 520px;
+    left: 369.5px;
+    top: 130px;
+
+    border: 1px solid #000000;
+}
+
+.rightpane{
+    position: absolute;
+    width: 1053px;
+    height: 413px;
+    left: 399px;
+    top: 130px;
+}
+
+h3{
+    position: absolute;
+    width: 131px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+
+    color: #1D2A4E;
+}
+
+p{
+    position: absolute;
+    width: 249px;
+    height: 24px;
+    left: 0px;
+    top: 48px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #090909;
+}
+
+.divider2{
+    width: 1053px;
+    height: 0px;
+    left: 0px;
+    top: 87px;
+
+    border: 1px solid #090909;
+}
+
+.finalout{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    position: absolute;
+    width: 71px;
+    height: 44px;
+    left: 0px;
+    top: 102px;
+
+    background: #3B5998;
+
+    border: 1px solid #3B5998;
+    border-radius: 8px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
