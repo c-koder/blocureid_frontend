@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Settings</title>
+
+    <link rel="stylesheet" href="css/settings.css">
+  </head>
+  <body>
+    <!--navbar start-->
+    <header>
+        <a href="index.html"><img src="image/BlocureID.png" alt="BlocureID" class="BlocureID"></a>
+        <div class="btns">
+          <div class="image">
+            <a href="User Profile.html"><img src="image/sara.png" alt="image" class="sara"></a>
+          </div>
+          <div class="navbarlogout">
+            <a href="User Logout.html" class="logout">Logout</a>
+          </div>
+        </div>
+      </header>
+      <!--navbar end-->
+  
+      <!--leftside start-->
+      <div>
+      <div class="leftpane">
+        <img src="image/sara.png" alt="sara" class="profile">
+        <h5>Welcome Lorem</h5>
+        <a href="User Profile.html" class="myprofile">Profile</a>
+        <a href="User Identities.html" class="identities">identities</a>
+        <button class="settings">settings</button>
+        <a href="User Logout.html" class="out">Logout</a>
+      </div>
+      <!--leftside end-->
+  
+      <!--line-->
+      <div class="divider"></div>
+
+      <!--rightside start-->
+      <div class="rightpane">
+        <h3>Your Settings</h3>
+        <p>Manage your account settings here</p>
+        <!--line-->
+        <div class="divider2"></div>
+        <!--security start-->
+        <div class="security">
+          <h5>security</h5>
+          <div class="securityone">
+            <div class="togglelabel">
+              <input type="checkbox">
+                <label>Two Factor Authentication (2FA)</label>
+            </div>
+          </div>
+          <p id="explain">Add an extra layer of security to your account by requiring a code 
+                sent to your phone or email in addition to your password.</p>
+          <div class="divider-light1"></div>
+          <div class="securitytwo">
+            <div class="recovery">
+              <input type="text" class="recovery-email" placeholder="Recovery email">
+              <button class="verify">Verify</button>
+            </div>
+            <p id="explain2">Set up a recovery email, in case you lose access to your account.</p>
+          </div>
+        </div>
+        <!--security end-->
+        <!--line-->
+        <div class="divider3"></div>
+        <!--credentials start-->
+        <div class="credentials">
+          <h5>Credentials</h5>
+          <p id="explain3">Update your account credentials here</p>
+          <form>
+            <div class="form1">
+              <input type="text" placeholder="Email">
+              <input type="password" placeholder="Password">
+              <button class="update1">Update</button>
+            </div>
+            <div class="divider-light2"></div>
+            <div class="form2">
+              <input type="password" placeholder="Curront password">
+              <input type="password" placeholder="New password">
+              <input type="password" placeholder="Confirm new password">
+              <button class="update2">Update</button>
+            </div>
+          </form>
+        </div>
+        <!--credentials end-->
+        <!--line-->
+        <div class="divider4"></div>
+        <!--data management start-->
+        <div class="data-management">
+          <h5>Data Management</h5>
+          <div class="management1">
+            <p id="explain4">Download a copy of your digital identity data in a secure and encrypted format.</p>
+            <button class="download">Download Data</button>
+          </div>
+          <div class="divider-light3"></div>
+          <div class="management2">
+            <p id="explain5">Permanently delete your account and all associated data.</p>
+            <button class="delete">Delete</button>
+          </div>
+        </div>
+        
+
+  
+    
+  </body>
+</html>
